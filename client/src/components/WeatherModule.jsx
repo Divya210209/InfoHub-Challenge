@@ -1,10 +1,6 @@
 // WeatherModule.jsx
-export default function WeatherModule() {
-  return <div>Weather Module Content</div>;
-}
-
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import React, { useState, useEffect } from 'react'
+import axios from 'axios'
 
 export default function WeatherModule() {
   const [data, setData] = useState(null);

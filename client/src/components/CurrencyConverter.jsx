@@ -1,9 +1,6 @@
 // CurrencyConverter.jsx
-export default function CurrencyConverter() {
-  return <div>Currency Converter Content</div>;
-}
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import React, { useState, useEffect } from 'react'
+import axios from 'axios'
 
 export default function CurrencyConverter() {
   const [data, setData] = useState(null);

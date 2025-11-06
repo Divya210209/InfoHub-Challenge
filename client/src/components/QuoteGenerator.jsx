@@ -1,9 +1,6 @@
 // QuoteGenerator.jsx
-export default function QuoteGenerator() {
-  return <div>Quote Generator Content</div>;
-}
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import React, { useState, useEffect } from 'react'
+import axios from 'axios'
 
 export default function QuoteGenerator() {
   const [data, setData] = useState(null);
