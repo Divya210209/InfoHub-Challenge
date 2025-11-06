@@ -10,15 +10,6 @@
       "use": "@vercel/static-build",
       "config": { "distDir": "dist" }
     }
-  ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/client/$1"
-    }
   ]
+
 }
